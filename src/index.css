@@ -59,7 +59,7 @@ ul{
 /* hero page */
 
 .background_image{
-  background-image: url('src/images/pc-background.avif');
+  background-image: url('../public/images/pc-background.jpg');
   width: 100%;
   height: 50vh;
   margin-top: 20px;
