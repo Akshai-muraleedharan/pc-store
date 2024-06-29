@@ -59,7 +59,11 @@ export default
             "strCategory": "Mouse & Mouse Mats",
             "strCategoryThumb":"https://www.ezpzsolutions.in/wp-content/uploads/2020/08/RZ01-02540100-R3M1-1.jpg",
             "strCategoryDescription":"Razer DeathAdder Essential Gaming Mouse"
-        }
+        }, 
+        
+        
+        
+       
 
 
 

@@ -1,8 +1,27 @@
-import React from 'react'
+
+import { Container } from "react-bootstrap"
+import AllProduct from "../Components/AllProduct"
+import Header from "../Components/Header"
+
+
+
+
+
 
 function ProductPage() {
+
+
+
   return (
-    <div>ProductPage</div>
+    <>
+      <Header />
+      <AllProduct />
+
+
+
+
+
+    </>
   )
 }
 

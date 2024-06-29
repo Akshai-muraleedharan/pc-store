@@ -1,22 +1,42 @@
 import { Container } from "react-bootstrap"
 import productCategory from "../assets/dbjson/productCategory"
 import "./ProductList.css"
+import { Link } from "react-router-dom"
+
+
+
+
+
+
 
 function ProductList() {
 
-   const product =productCategory.map((item,index)=>{
-     return(
+
+
+
+  const products = productCategory.map((item) => {
+    return (
+     
       <>
-       <li>
-        <img src={item.strCategoryThumb}  />
-        <h5>{item.strCategory}</h5>
-       </li>
+        
+        <Link to={`/products/${item.idCategory}`}>   
+        
+          <li>
+            <img src={item.strCategoryThumb} />
+            <h5>{item.strCategory}</h5>
+          </li>
+         
+         </Link>  
+       
       </>
-     )
-   })
+    )
+  })
+
+ 
 
   return (
     <>
+
       <Container className="mt-80">
 
         <div className="product-title">
@@ -25,14 +45,20 @@ function ProductList() {
         </div>
 
         <div className="card">
-        <ul className="card-list">
-            {product}
-        </ul>
+          <ul className="card-list">
+            {products}
+          </ul>
         </div>
 
       </Container>
+     
+
     </>
   )
+
+
 }
 
-export default ProductList
+
+export default ProductList;
+

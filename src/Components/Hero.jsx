@@ -1,9 +1,9 @@
 import React from 'react'
 
-import productCategory from '../assets/dbjson/productCategory'
+
 function Hero() {
 
-   console.log(productCategory);
+  
   return (
     <>
     
