@@ -50,9 +50,9 @@ function Footer() {
                   <Link to={'/'}> <li>Faq’s</li></Link>
                 </ul>
               </div>
-
+             
             </div>
-           
+          
            <div className='footer_copyRight'>
             <p>Copyright © Pc Store India Pvt Ltd. All Rights Reserved </p>
 

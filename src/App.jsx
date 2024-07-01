@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import Header from "./Components/Header"
+
 import HomePage from "./Pages/HomePage"
 import ProductPage from "./Pages/ProductPage"
 import SinglePage from "./Pages/SinglePage"
 import CartPage from "./Pages/CartPage"
 import { createContext, useState } from "react"
-import Single from "./Components/Single"
+import ErrorPage from './Pages/ErrorPage'
 
 export const CartContext = createContext()
 
@@ -21,6 +21,7 @@ const [cart,setCart] = useState([])
       <Route  path='products/:productId' element={<ProductPage cart={cart}  />}/>
       <Route path='/:itemId' element={ <SinglePage />}/>
       <Route  path='/cart' element={   <CartPage  /> }/>
+     <Route path='*' element={<ErrorPage/>} />
       
      </Routes>
      

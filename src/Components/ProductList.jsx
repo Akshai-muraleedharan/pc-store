@@ -14,14 +14,15 @@ function ProductList() {
 
 
 
-  const products = productCategory.map((item) => {
+  const products = productCategory.map((item,index) => {
+   
     return (
      
       <>
         
-        <Link to={`/products/${item.idCategory}`}>   
+        <Link to={`/products/${item.idCategory}`} key={index}>   
         
-          <li>
+          <li key={index}>
             <img src={item.strCategoryThumb} />
             <h5>{item.strCategory}</h5>
           </li>

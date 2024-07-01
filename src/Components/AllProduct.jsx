@@ -47,7 +47,7 @@ function AllProduct() {
 
         return (
             <>
-                <Link to={`/${item.id}`}>
+                <Link to={`/${item.id}`} key={item.idCategory}>
                     <li key={item.id}>
 
                         <img src={item.strCategoryThumb} />
@@ -85,7 +85,7 @@ function AllProduct() {
         <>
             <Container>
 
-                <div className='mt-80'>
+                <div className='mt-80' >
                     <button onClick={() => navigate(-1)} style={{ border: "none", backgroundColor: "#fff", fontSize: "20px", marginBottom: "20px" }}>
                         <ImArrowLeft2 />
                     </button>
