@@ -85,7 +85,7 @@ function AllProduct() {
         <>
             <Container>
 
-                <div className='mt-80' >
+                <div className='mt-40' >
                     <button onClick={() => navigate(-1)} style={{ border: "none", backgroundColor: "#fff", fontSize: "20px", marginBottom: "20px" }}>
                         <ImArrowLeft2 />
                     </button>

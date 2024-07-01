@@ -311,7 +311,7 @@ export default [
                 "mrp": "8500",
                 "brand": "Gigabyte"
             },
-          
+
             {
                 "id": "101",
                 "strCategory": "Cooler Master MWE 750 V2 80 Plus Bronze Power Supply",
@@ -372,7 +372,7 @@ export default [
                 "mrp": "8,999",
                 "brand": "Corsair"
             },
-            
+
 
 
         ]
@@ -388,21 +388,60 @@ export default [
         "strid": [
 
             {
-
-                "strCategory": "Processors",
-                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/ryzen-3400g-main-1-300x300.jpg",
-                "strCategoryDescription": "AMD Ryzen 5 3400G Processor with Radeon™ Vega 11 Graphics"
+                "id": "140",
+                "strCategory": "Cooler Master ML240L RGB V2 CPU Liquid Cooler",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/CM-ML240L-RGB-V2-EZPZ-1.jpg",
+                "strCategoryDescription": "Cooler Master ML240L RGB V2 CPU Liquid Cooler",
+                "price": "5899",
+                "mrp": "11299",
+                "brand": "Cooler Master",
+                "cpumodel": "ML240L-RGB-V2",
+                "logo": "https://www.ezpzsolutions.in/wp-content/uploads/2021/06/cm-logo-ezpz-80x63.png"
             },
             {
-
-                "strCategory": "motherboard",
-                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/ryzen-3400g-main-1-300x300.jpg",
-                "strCategoryDescription": "AMD Ryzen 5 3400G Processor with Radeon™ Vega 11 Graphics"
-            }, {
-                "strCategory": "Processors",
-                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/ryzen-3400g-main-1-300x300.jpg",
-                "strCategoryDescription": "AMD Ryzen 5 3400G Processor with Radeon™ Vega 11 Graphics"
-            }
+                "id": "141",
+                "strCategory": "Thermaltake UX100 ARGB CPU Air Cooler",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/tt-ux100-argb-main-1.jpg",
+                "strCategoryDescription": "Thermaltake UX100 ARGB CPU Air Cooler",
+                "price": "1449",
+                "mrp": "2999",
+                "brand": "Thermaltake",
+                "cpumodel": "ML250L-RGB-V2",
+                "logo": "https://www.ezpzsolutions.in/wp-content/uploads/2021/06/thermaltake-log-ezpz-100x74.png"
+            }, 
+            {
+                "id": "142",
+                "strCategory": "Antec A30 CPU Air Cooler",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/a30-1.jpg",
+                "strCategoryDescription": "Antec A30 CPU Air Cooler",
+                "price": "949",
+                "mrp": "1650",
+                "brand": "Antec",
+                "cpumodel": "ML250L-RGB-V6",
+                "logo": "https://www.ezpzsolutions.in/wp-content/uploads/2021/06/antec-main-ezpz-min-100x66.png"
+            },
+            {
+                "id": "143",
+                "strCategory": "Deepcool Gamma Archer CPU Air Cooler",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/DEEPCOOL-GAMMA-ARCHER-1.jpg",
+                "strCategoryDescription": "Deepcool Gamma Archer CPU Air Cooler",
+                "price": "679",
+                "mrp": "799",
+                "brand": "Deepcool",
+                "cpumodel": "ML25L-RGB-V6",
+                "logo": "https://www.ezpzsolutions.in/wp-content/uploads/2021/06/Deepcool-logo-black-100x27.png"
+            },
+            {
+                "id": "144",
+                "strCategory": "Asus TUF Gaming LC 120 RGB CPU Liquid Cooler",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/11/tuf-gaming-lc-120-rgb-ezpz-main-1.jpg",
+                "strCategoryDescription": "Asus TUF Gaming LC 120 RGB CPU Liquid Cooler",
+                "price": "6139",
+                "mrp": "12640",
+                "brand": "Asus",
+                "cpumodel": "TUF-LC-120",
+                "logo": "https://www.ezpzsolutions.in/wp-content/uploads/2021/06/asus-logo-ezpz-1-100x28.png"
+            },
 
 
         ]
@@ -417,22 +456,32 @@ export default [
         "strCategory": "Monitors",
         "strid": [
 
-            {
+            // monitors
 
-                "strCategory": "Processors",
-                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/ryzen-3400g-main-1-300x300.jpg",
-                "strCategoryDescription": "AMD Ryzen 5 3400G Processor with Radeon™ Vega 11 Graphics"
-            },
-            {
 
-                "strCategory": "motherboard",
-                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/ryzen-3400g-main-1-300x300.jpg",
-                "strCategoryDescription": "AMD Ryzen 5 3400G Processor with Radeon™ Vega 11 Graphics"
-            }, {
-                "strCategory": "Processors",
-                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/ryzen-3400g-main-1-300x300.jpg",
-                "strCategoryDescription": "AMD Ryzen 5 3400G Processor with Radeon™ Vega 11 Graphics"
-            }
+    {
+        "id": "160",
+        "strCategory": "LG 22MK600M-B 22 Inch FHD IPS Monitor",
+        "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/LG-22MK600M-B-Monitor-2.jpg",
+        "strCategoryDescription": "LG 22MK600M-B 22 Inch FHD IPS Monitor",
+        "price": "7439",
+        "mrp": "12000",
+        "brand": "LG",
+        "cpumodel": "TUF-LC-120",
+        "logo": "https://www.ezpzsolutions.in/wp-content/uploads/2023/04/logo-b2c-100x95.jpg"
+    },
+    {
+        "id": "161",
+        "strCategory": "Gigabyte G24F 2 Gaming Monitor",
+        "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2021/09/GB-G24F-2-1-600x600.jpg",
+        "strCategoryDescription": "Gigabyte G24F 2 Gaming Monitor",
+        "price": "11499",
+        "mrp": "31000",
+        "brand": "Gigabyte",
+        "cpumodel": "TKF-LC-120",
+        "logo": "https://www.ezpzsolutions.in/wp-content/uploads/2021/06/gigabyte-llog-ezpz-100x100.png"
+    },
+
 
 
         ]
@@ -449,21 +498,39 @@ export default [
         "strid": [
 
             {
-
-                "strCategory": "Processors",
-                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/ryzen-3400g-main-1-300x300.jpg",
-                "strCategoryDescription": "AMD Ryzen 5 3400G Processor with Radeon™ Vega 11 Graphics"
+                "id": "180",
+                "strCategory": "Logitech MK220 Mouse and Wireless Laptop Keyboard (Black)",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/logi-mk220-main-1.jpg",
+                "strCategoryDescription": "Logitech MK220 Mouse and Wireless Laptop Keyboard (Black)",
+                "price": "1289",
+                "mrp": "1350",
+                "brand": "Logitech",
+                "cpumodel": "TKF-L-120",
+                "logo": "https://www.ezpzsolutions.in/wp-content/uploads/2022/04/Logitech-Symbol-100x56.png"
             },
             {
-
-                "strCategory": "motherboard",
-                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/ryzen-3400g-main-1-300x300.jpg",
-                "strCategoryDescription": "AMD Ryzen 5 3400G Processor with Radeon™ Vega 11 Graphics"
-            }, {
-                "strCategory": "Processors",
-                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/ryzen-3400g-main-1-300x300.jpg",
-                "strCategoryDescription": "AMD Ryzen 5 3400G Processor with Radeon™ Vega 11 Graphics"
-            }
+                "id": "181",
+                "strCategory": "Ant Esports KM540 Gaming Backlit Keyboard and Mouse Combo",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2021/01/km540-main-1.jpg",
+                "strCategoryDescription": "Ant Esports KM540 Gaming Backlit Keyboard and Mouse Combo",
+                "price": "1305",
+                "mrp": "3000",
+                "brand": "Ant Esports",
+                "cpumodel": "TKF-L-120",
+                "logo": "https://www.ezpzsolutions.in/wp-content/uploads/2022/02/ant-esports-main-1-100x65.png"
+            },
+            {
+                "id": "182",
+                "strCategory": "Razer Huntsman Mini Mercury Purple Switch Mechanical Gaming Keyboard",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2021/02/RZ03-03390300-R3M1-1.jpg",
+                "strCategoryDescription": "Razer Huntsman Mini Mercury Purple Switch Mechanical Gaming Keyboard",
+                "price": "7519",
+                "mrp": "16000",
+                "brand": "Razer",
+                "cpumodel": "RZ03-03390300-R3M1",
+                "logo": "https://www.ezpzsolutions.in/wp-content/uploads/2021/02/Razer-Logo-Horizontal-1-72x30.jpg"
+            },
+            
 
 
         ]
@@ -482,21 +549,16 @@ export default [
         "strid": [
 
             {
-
-                "strCategory": "Processors",
-                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/ryzen-3400g-main-1-300x300.jpg",
-                "strCategoryDescription": "AMD Ryzen 5 3400G Processor with Radeon™ Vega 11 Graphics"
+                "id": "200",
+                "strCategory": "Razer DeathAdder Essential Gaming Mouse",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/RZ01-02540100-R3M1-1.jpg",
+                "strCategoryDescription": "Razer DeathAdder Essential Gaming Mouse",
+                "price": "1239",
+                "mrp": "4500",
+                "brand": "Razer",
+                "cpumodel": "RZ03-03390300-R3M1",
+                "logo": "https://www.ezpzsolutions.in/wp-content/uploads/2021/02/Razer-Logo-Horizontal-1-72x30.jpg"
             },
-            {
-
-                "strCategory": "motherboard",
-                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/ryzen-3400g-main-1-300x300.jpg",
-                "strCategoryDescription": "AMD Ryzen 5 3400G Processor with Radeon™ Vega 11 Graphics"
-            }, {
-                "strCategory": "Processors",
-                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/ryzen-3400g-main-1-300x300.jpg",
-                "strCategoryDescription": "AMD Ryzen 5 3400G Processor with Radeon™ Vega 11 Graphics"
-            }
 
 
         ]
