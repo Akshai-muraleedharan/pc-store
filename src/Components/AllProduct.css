@@ -1,9 +1,9 @@
 .card_list{
     display: flex;
-   justify-content: space-around;
+   justify-content: flex-start;
     flex-wrap: wrap;
     padding: 20px;
-    gap: 20px;
+    gap: 40px;
 }
 
 .card_list a{
