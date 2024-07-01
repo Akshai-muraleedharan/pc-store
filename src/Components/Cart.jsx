@@ -12,8 +12,8 @@ import Popup from 'reactjs-popup';
 function Cart() {
     const { cart, setCart } = useContext(CartContext)
     const [total, setTotal] = useState(0);
-//     const [index, setIndex] = useState()
-//   console.log(index);
+    //     const [index, setIndex] = useState()
+    //   console.log(index);
     // const name =cart.strCategory.length > 20 ? cart.strCategory.substring(0,20):cart.strCategory
 
 
@@ -49,7 +49,7 @@ function Cart() {
                 <div className='cart_contianer'>
                     <h2 className='cart_title'>Cart Products</h2>
                     {cart.length > 0 ? cart.map((item, index) => {
-                        
+
                         return (
                             <div className='cart_product'>
 
@@ -57,7 +57,9 @@ function Cart() {
                                 </button>} position="right center">
                                     <div>
                                         <Row>
-                                            <Col><img className='cart_pop_img' src={item.strCategoryThumb} /></Col>
+                                            <Col>
+                                                <img className='cart_pop_img' src={item.strCategoryThumb} />
+                                            </Col>
                                             <Col className='popup_details'>
                                                 <p >{item.strCategory}</p>
                                                 <h5>Brand: {item.brand} </h5>

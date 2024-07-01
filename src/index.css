@@ -15,6 +15,9 @@
   margin-top: 40px;
 }
 
+.textAlign_center{
+  text-align: center;
+}
 .para_width{
   max-width: 800px;
   margin: 0 auto;

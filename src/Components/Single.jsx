@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import "./single.css"
 import { useContext } from 'react'
 import { CartContext } from '../App';
-import {  useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { ImArrowLeft2 } from "react-icons/im";
 
 
@@ -12,7 +12,7 @@ function Single({ item }) {
 
   const { cart, setCart } = useContext(CartContext)
 
-  console.log(cart);
+
 
   const addCart = () => {
     setCart([...cart, item])
@@ -28,11 +28,11 @@ function Single({ item }) {
   return (
     <>
       <Container className='mt-80'>
-        <button onClick={() => navigate(-1)} style={{border:"none",backgroundColor:"#fff",fontSize:"20px"}}>
+        <button onClick={() => navigate(-1)} style={{ border: "none", backgroundColor: "#fff", fontSize: "20px" }}>
           <ImArrowLeft2 />
         </button>
         <Row>
-          <Col>
+          <Col className='textAlign_center'>
             <img src={item.strCategoryThumb} className='single_img' />
           </Col>
           <Col>

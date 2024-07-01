@@ -75,6 +75,28 @@
         display: block;
         margin: 20px 0px ;
     }
+    
+}
+
+@media screen and (max-width:767px){
+    .single_img{
+        width: 250px;
+
+        
+    }
+    .product_title{
+        font-size: 17px;
+        margin:12px 0px 20px 0px;
+        
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:999px){
+    .single_img{
+        width: 100%;
+    }
+    
 }
 @media screen and (min-width: 1000px){
     .single_img{
