@@ -37,7 +37,7 @@
 
 }
 
- button{
+.cart_add_btn{
     font-size: 12px;
     padding: 4px;
     border-radius: 3px;
@@ -74,6 +74,23 @@
     color: #03A9F4;;
 }
 
+.add_more_btn{
+   display: flex;
+   justify-content: center;
+}
+
+.add_more_button{
+    width: 93%;
+    padding: 10px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+
+
 
 @media screen and (max-width: 767px){
     .card_list{
@@ -102,5 +119,8 @@
         color: #000;
         text-decoration: none;
        
+    }
+    .add_more_button{
+        width: 100%;
     }
 }

@@ -40,6 +40,7 @@
 
 .brand_name{
     font-size: 16px;
+    margin-bottom: 20px;
 }
 
 .brand_name span{
@@ -55,9 +56,17 @@
     width: 58%;
     font-size: 16px;
     margin-left: 60px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
 }
 
-
+.cart_arrow{
+    border:"none" !important;
+    background-color:"#fff";
+    font-size: 20px;
+}
 
 
 @media screen and (min-width: 319px) and (max-width:999px){

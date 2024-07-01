@@ -56,6 +56,15 @@ ul{
   
 }
 
+.nav_ul a span{
+  background-color: #2196F3;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    width: 26px;
+    display: inline-block;
+}
+
 /* hero page */
 
 .background_image{

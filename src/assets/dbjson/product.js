@@ -103,21 +103,87 @@ export default [
         "strid": [
 
             {
-
-                "strCategory": "Processors",
-                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/ryzen-3400g-main-1-300x300.jpg",
-                "strCategoryDescription": "AMD Ryzen 5 3400G Processor with Radeon™ Vega 11 Graphics"
+                "id":"41",
+                "strCategory": "MSI PRO B760-P WIFI DDR4 Motherboard",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/asus-prime-a320m-k-main-1-300x300.jpg",
+                "strCategoryDescription": "MSI PRO B760-P WIFI DDR4 Motherboard",
+                "price":"4,389",
+                "mrp":"8,800",
+                "brand":"Asus"
             },
             {
+                "id":"42",
+                "strCategory": "Asus PRIME B450M-A II Motherboard",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/asus-b450m-a-ii-ezpz-300x300.jpg",
+                "strCategoryDescription": "Asus PRIME B450M-A II Motherboard",
+                "price":"6,249",
+                "mrp":"10,990",
+                "brand":"Asus"
+            },
+            {
+                "id":"43",
+                "strCategory": "Gigabyte B450M DS3H Wifi Motherboard",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/GB-B450M-DS3H-WIFI-300x300.jpg",
+                "strCategoryDescription": "Gigabyte B450M DS3H Wifi Motherboard",
+                "price":"7,299",
+                "mrp":"9,100",
+                "brand":"Gigabyte"
+            },
+            {
+                "id":"44",
+                "strCategory": "Gigabyte B550M DS3H Motherboard",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/Gigabyte-B550M-DS3H-Motherboard-1-300x300.jpg",
+                "strCategoryDescription": "Gigabyte B550M DS3H Motherboard",
+                "price":"9,049",
+                "mrp":"12,600",
+                "brand":"Gigabyte"
+            },
+            {
+                "id":"45",
+                "strCategory": "MSI MPG B550 Gaming Plus Motherboard",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/mpg-b550-gaming-plus-main-1-300x300.jpg",
+                "strCategoryDescription": "MSI MPG B550 Gaming Plus Motherboard",
+                "price":"13,549",
+                "mrp":"20,700",
+                "brand":"Msi"
+            },
+            {
+                "id":"46",
+                "strCategory": "MSI B550-A Pro Motherboard",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/b550-a-pro-image-main-1-300x300.jpg",
+                "strCategoryDescription": "MSI B550-A Pro Motherboard",
+                "price":"13,500",
+                "mrp":"38,000",
+                "brand":"Msi"
+            },
+            {
+                "id":"47",
+                "strCategory": "ASRock B450M-HDV R4",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/B450M-HDV-main-1-300x300.jpg",
+                "strCategoryDescription": "ASRock B450M-HDV R4",
+                "price":"4,249",
+                "mrp":"8,700",
+                "brand":"ASRock"
+            },
+            {
+                "id":"48",
+                "strCategory": "Asrock B550 Phantom Gaming 4 Motherboard",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/09/b550-phantom-gaming-4-image-main-1-300x300.jpg",
+                "strCategoryDescription": "Asrock B550 Phantom Gaming 4 Motherboard",
+                "price":"11,049",
+                "mrp":"12,000",
+                "brand":"ASRock"
+            },
+            {
+                "id":"49",
+                "strCategory": "Asrock B550 Steel Legend Motherboard",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/09/b550-steel-legend-image-main-1-300x300.jpg",
+                "strCategoryDescription": "Asrock B550 Steel Legend Motherboard",
+                "price":"14,049",
+                "mrp":"18,000",
+                "brand":"ASRock"
+            },
 
-                "strCategory": "motherboard",
-                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/ryzen-3400g-main-1-300x300.jpg",
-                "strCategoryDescription": "AMD Ryzen 5 3400G Processor with Radeon™ Vega 11 Graphics"
-            }, {
-                "strCategory": "Processors",
-                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/ryzen-3400g-main-1-300x300.jpg",
-                "strCategoryDescription": "AMD Ryzen 5 3400G Processor with Radeon™ Vega 11 Graphics"
-            }
 
 
         ]
@@ -134,21 +200,44 @@ export default [
         "strid": [
 
             {
-
-                "strCategory": "Processors",
-                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/ryzen-3400g-main-1-300x300.jpg",
-                "strCategoryDescription": "AMD Ryzen 5 3400G Processor with Radeon™ Vega 11 Graphics"
+                "id":"60",
+                "strCategory": "Corsair Vengeance Lpx 8GB (8GBx1) DDR4 3200MHz RAM Memory Module",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/corsair-vengence-main-1-300x300.jpg",
+                "strCategoryDescription": "Corsair Vengeance Lpx 8GB (8GBx1) DDR4 3200MHz RAM Memory Module",
+                "price":"2089",
+                "mrp":"6500",
+                "brand":"Corsair"
+            },
+            
+            {
+                "id":"61",
+                "strCategory": "G.Skill Trident Z RGB 16GB (8GBx2) 3200MHz DDR4 CL16 RAM Memory Module",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/trident-z-rgb-dual-mian-1-300x300.jpg",
+                "strCategoryDescription": "G.Skill Trident Z RGB 16GB (8GBx2) 3200MHz DDR4 CL16 RAM Memory Module",
+                "price":"5469",
+                "mrp":"16800",
+                "brand":"G.Skill"
             },
             {
-
-                "strCategory": "motherboard",
-                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/ryzen-3400g-main-1-300x300.jpg",
-                "strCategoryDescription": "AMD Ryzen 5 3400G Processor with Radeon™ Vega 11 Graphics"
-            }, {
-                "strCategory": "Processors",
-                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/ryzen-3400g-main-1-300x300.jpg",
-                "strCategoryDescription": "AMD Ryzen 5 3400G Processor with Radeon™ Vega 11 Graphics"
-            }
+                "id":"63",
+                "strCategory": "TeamGroup T-Force Delta RGB 8GB (8GBx1) 3200MHz Black DDR4 CL16 RAM Memory Module",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/08/tforce-delta-rgb-8gb-3200-1-300x300.jpg",
+                "strCategoryDescription": "TeamGroup T-Force Delta RGB 8GB (8GBx1) 3200MHz Black DDR4 CL16 RAM Memory Module",
+                "price":"2399",
+                "mrp":"10450",
+                "brand":"Team Group"
+            },
+            {
+                "id":"64",
+                "strCategory": "Adata XPG Spectrix D60G RGB 16GB (8GBx2) 3200MHz DDR4 RAM Memory Module",
+                "strCategoryThumb": "https://www.ezpzsolutions.in/wp-content/uploads/2020/10/Adata-XPG-Spectrix-D60G-1-300x300.jpg",
+                "strCategoryDescription": "Adata XPG Spectrix D60G RGB 16GB (8GBx2) 3200MHz DDR4 RAM Memory Module",
+                "price":"4849",
+                "mrp":"15000",
+                "brand":"XPG"
+            },
+           
+           
 
 
         ]

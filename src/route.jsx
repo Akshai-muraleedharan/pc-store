@@ -5,6 +5,10 @@ import CartPage from "./Pages/CartPage";
 import ErrorPage from "./Pages/ErrorPage";
 import SinglePage from "./Pages/SinglePage.jsx"
 
+
+
+
+
 const router = createBrowserRouter([
     {
         path:'/',
