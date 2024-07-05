@@ -1,6 +1,6 @@
 {
   "name": "pc-store",
-  "homepage": "pc-store",
+  "homepage": ".",
   "private": true,
   "version": "0.0.0",
   "type": "module",
